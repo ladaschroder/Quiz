@@ -18,4 +18,7 @@ A fun personality quiz built with React that determines your elemental affinity 
 - **Styling**: CSS with custom variables
 - **API**: Dog CEO API for random dog images
 
+The quiz is available via this link:
+- [Live] (https://quiz-alpha-beige.vercel.app/)
+
 Made with ❤️ and lots of dog pictures 🐶</content>

@@ -2,7 +2,7 @@
 
 A fun personality quiz built with React that determines your elemental affinity (Fire, Water, Earth, Air) and rewards you with a random dog image!
 
-## 🚀 Features
+## Features
 
 - Interactive quiz with 6 questions
 - Elemental personality results
@@ -10,7 +10,7 @@ A fun personality quiz built with React that determines your elemental affinity 
 - Responsive design with custom styling
 - React Router for navigation
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Frontend**: React 18
 - **Build Tool**: Vite

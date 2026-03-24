@@ -1,0 +1,162 @@
+:root {
+  --bg-start: #b5c1dc;
+  --bg-end: #e8ebf0;
+  --container-bg: #dee3ef;
+  --text-main: #000000;
+  --text-muted: #000000;
+  --button-bg: #e7f673;
+  --button-hover: #ddf555;
+  --button-text: #000001;
+  --card-bg: #fdfefe;
+  --border: #334155;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: rgb(252, 251, 249);
+  color: black;
+  min-height: 100vh;
+}
+
+#root {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+  padding: 30px;
+  box-sizing: border-box;
+}
+
+.app-container {
+  width: 100%;
+  max-width: 800px;
+  background: #ffe0b4;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+  padding: 30px;
+  text-align: center;
+}
+
+header {
+  margin-bottom: 30px;
+}
+
+header h1 {
+  margin-bottom: 10px;
+  font-size: 2.2rem;
+  color: #000204;
+}
+
+nav {
+  margin-top: 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #000000;
+  font-weight: bold;
+  margin: 0 12px;
+  font-size: 1rem;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+form {
+  margin-top: 30px;
+}
+
+form label {
+  display: block;
+  margin-bottom: 12px;
+  font-size: 1.1rem;
+  color: #374151;
+}
+
+form input {
+  width: 100%;
+  max-width: 420px;
+  padding: 12px 14px;
+  border: 1px solid #cbd5e1;
+  border-radius: 10px;
+  font-size: 1rem;
+  box-sizing: border-box;
+}
+
+form button {
+  margin-top: 16px;
+}
+
+h2 {
+  color: #111827;
+  margin-bottom: 25px;
+}
+
+button {
+  background-color: #ced8fb;
+  color: rgb(0, 0, 0);
+  border: none;
+  border-radius: 12px;
+  padding: 14px 20px;
+  margin: 10px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+button:hover {
+  transform: translateY(-2px);
+  opacity: 0.92;
+}
+
+.question-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 20px;
+}
+
+.question-buttons button {
+  min-width: 180px;
+}
+
+.result-card {
+  margin-top: 20px;
+}
+
+.result-card p {
+  font-size: 1.1rem;
+  color: #374151;
+}
+
+.artwork {
+  margin-top: 25px;
+}
+
+.artwork img {
+  width: 100%;
+  max-width: 320px;
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  margin-top: 12px;
+}
+
+.artwork h3 {
+  margin-bottom: 10px;
+  color: #111827;
+}
+
+.artwork p {
+  margin: 6px 0;
+  color: #4b5563;
+}
+.corner-gif {
+  position: fixed;
+  top: 30px;
+  right: 30px;
+  width: 150px;
+  border-radius: 16px;
+}

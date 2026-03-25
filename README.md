@@ -1,6 +1,6 @@
 # Personality Quiz App
 
-A fun personality quiz built with React that determines your elemental affinity (Fire, Water, Earth, Air) and rewards you with a random dog image!
+This is an interactive web application that asks users a series of questions and assigns them a personality type based on their answers and rewards you with a random dog image!
 
 ## Features
 
@@ -18,7 +18,17 @@ A fun personality quiz built with React that determines your elemental affinity 
 - **Styling**: CSS with custom variables
 - **API**: Dog CEO API for random dog images
 
-The quiz is available via this link:
+## Live Demo
 - [Live](https://quiz-alpha-beige.vercel.app/)
+
+## What I Learned
+- Managing state in React using useState
+- Conditional rendering
+- Structuring React components
+- Building interactive user interfaces
+
+## Future Improvements
+- Add more questions and personality types
+- Improve UI/UX design
 
 Made with ❤️ and lots of dog pictures 🐶</content>
